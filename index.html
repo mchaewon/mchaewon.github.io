@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Chaewon Moon</title>
+<meta name="author" content="Chaewon Moon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!--
+  This file is self-contained: the CSS below is embedded, so it works on its own.
+  If you'd rather use the original Barron stylesheet.css, delete this <style> block
+  and add:  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+-->
+<style>
+  body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+  }
+  a { color: #1772d0; text-decoration: none; }
+  a:hover { color: #f09228; text-decoration: none; }
+  p { margin: 8px 0; }
+  .name { font-size: 32px; font-weight: 400; margin: 0; }
+  .papertitle { font-weight: 600; font-size: 16px; }
+  .highlight { color: #f09228; }
+  h2 {
+    font-weight: 400;
+    margin: 12px 0 4px 0;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #ddd;
+  }
+  em { color: #333; }
+  img.profile {
+    width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .thumb { width: 160px; max-width: 100%; }
+  @media (max-width: 640px) { .thumb { width: 110px; } }
+</style>
+</head>
+
+<body>
+<table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+<tr style="padding:0px">
+<td style="padding:0px">
+
+  <!-- ===================== HEADER ===================== -->
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <tr style="padding:0px">
+    <td style="padding:2.5%;width:63%;vertical-align:middle">
+      <p class="name" style="text-align:center;">Chaewon Moon</p>
+      <p>
+        <!-- TODO: 아래 소개 문단은 초안입니다. 자유롭게 고쳐 쓰세요. -->
+        I'm a researcher at
+        <a href="https://en.knu.ac.kr/">Kyungpook National University</a>,
+        working on computer vision and deep learning.
+        My research focuses on 3D reconstruction, novel view synthesis,
+        and diffusion models for image and 3D restoration.
+      </p>
+      <p style="text-align:center">
+        <!-- TODO: 아래 링크들을 본인 것으로 바꾸세요 (# 는 임시값) -->
+        <a href="mailto:your-email@knu.ac.kr">Email</a> &nbsp;/&nbsp;
+        <a href="data/CV.pdf">CV</a> &nbsp;/&nbsp;
+        <a href="#">Scholar</a> &nbsp;/&nbsp;
+        <a href="#">GitHub</a>
+      </p>
+    </td>
+    <td style="padding:2.5%;width:37%;max-width:37%">
+      <!-- TODO: images/profile.jpg 에 프로필 사진을 넣으세요 -->
+      <img class="profile" alt="profile photo" src="images/profile.jpg">
+    </td>
+  </tr>
+  </tbody></table>
+
+  <!-- ===================== INTRO ===================== -->
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <tr>
+    <td style="padding:16px;width:100%;vertical-align:middle">
+      <h2>Publications</h2>
+      <p style="font-size:13px;color:#666;">* denotes equal contribution.</p>
+    </td>
+  </tr>
+  </tbody></table>
+
+  <!-- ===================== PAPER LIST ===================== -->
+  <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+  <!-- [1] CompMVR — SIGGRAPH Asia 2026 (co-first author, highlighted) -->
+  <tr bgcolor="#ffffd0">
+    <td style="padding:16px;width:20%;vertical-align:middle">
+      <img class="thumb" src="images/compmvr.jpg">
+    </td>
+    <td style="padding:8px;width:80%;vertical-align:middle">
+      <a href="#">
+        <span class="papertitle">CompMVR: Compression-Aware Multi-View Restoration Using Diffusion Models for Geometrically Consistent 3D Reconstruction</span>
+      </a>
+      <br>
+      김동휘*, <strong>문채원*</strong>, 송하준, 김동범, 장준영, 김아로, 김가현, 최희정, 김제희, Gianella Cravioto, 이스헌, 최경진, 정은혜, 김수예, 이재협, 박상효
+      <br>
+      <em>SIGGRAPH Asia</em>, 2026 &nbsp;<font color="red"><strong>(Co-first author)</strong></font>
+      <br>
+      <span style="color:#666;">Conditionally Accepted, camera-ready in preparation</span>
+      <p></p>
+      <p>Compression-aware multi-view restoration with diffusion models for geometrically consistent 3D reconstruction.</p>
+    </td>
+  </tr>
+
+  <!-- [2] G2P — ECCV 2026 -->
+  <tr>
+    <td style="padding:16px;width:20%;vertical-align:middle">
+      <img class="thumb" src="images/g2p.jpg">
+    </td>
+    <td style="padding:8px;width:80%;vertical-align:middle">
+      <a href="#">
+        <span class="papertitle">G2P: Gaussian-to-Point Attribute Alignment for Boundary-Aware 3D Segmentation</span>
+      </a>
+      <br>
+      송하준, 송채영*, 정은혜, <strong>문채원</strong>, 김수예, Yiyi Liao, 이재협, 박상효
+      <br>
+      <em>ECCV</em>, 2026 &nbsp;(Poster)
+      <p></p>
+      <p>Gaussian-to-point attribute alignment for boundary-aware 3D segmentation.</p>
+    </td>
+  </tr>
+
+  <!-- [3] FiDeSR — CVPR 2026 -->
+  <tr>
+    <td style="padding:16px;width:20%;vertical-align:middle">
+      <img class="thumb" src="images/fidesr.jpg">
+    </td>
+    <td style="padding:8px;width:80%;vertical-align:middle">
+      <a href="#">
+        <span class="papertitle">FiDeSR: High-Fidelity and Detail-Preserving One-Step Diffusion Super-Resolution</span>
+      </a>
+      <br>
+      김아로*, 장명진*, <strong>문채원</strong>, 신영진, 정진우, 박상효
+      <br>
+      <em>CVPR</em>, 2026 &nbsp;(Poster)
+      <p></p>
+      <p>One-step diffusion super-resolution that preserves high-frequency detail and fidelity.</p>
+    </td>
+  </tr>
+
+  <!-- [4] IWAIT 2026 — first author, Oral -->
+  <tr>
+    <td style="padding:16px;width:20%;vertical-align:middle">
+      <img class="thumb" src="images/iwait.jpg">
+    </td>
+    <td style="padding:8px;width:80%;vertical-align:middle">
+      <a href="#">
+        <span class="papertitle">Analysis of Object Detection Performance According to Implicit and Explicit Representations in Novel View Synthesis</span>
+      </a>
+      <br>
+      <strong>문채원</strong>, 김아로, 백보성, 박상효
+      <br>
+      <em>IWAIT</em>, 2026 &nbsp;<font color="red"><strong>(Oral)</strong></font>
+      <p></p>
+      <p>How implicit vs. explicit scene representations in novel view synthesis affect downstream object detection performance.</p>
+    </td>
+  </tr>
+
+  <!-- Journal — Journal of Broadcast Engineering 2024 — first author -->
+  <tr>
+    <td style="padding:16px;width:20%;vertical-align:middle">
+      <img class="thumb" src="images/jbe2024.jpg">
+    </td>
+    <td style="padding:8px;width:80%;vertical-align:middle">
+      <a href="#">
+        <span class="papertitle">A Study on the Vulnerability of Semantic Segmentation Model to Data Transformation</span>
+      </a>
+      <br>
+      <strong>문채원</strong>, 김동휘, 강다빈, 박상효
+      <br>
+      <em>Journal of Broadcast Engineering (방송공학회논문지)</em>, 2024
+      <p></p>
+      <p>An analysis of how data transformations affect the robustness of semantic segmentation models.</p>
+    </td>
+  </tr>
+
+  <!-- =========================================================
+       한 편 더 있다고 하셨죠? 아래 블록을 복사해서 채우면 됩니다.
+       (지금은 화면에 안 보이도록 주석 처리해 뒀어요)
+  <tr>
+    <td style="padding:16px;width:20%;vertical-align:middle">
+      <img class="thumb" src="images/paperX.jpg">
+    </td>
+    <td style="padding:8px;width:80%;vertical-align:middle">
+      <a href="논문_또는_프로젝트_링크">
+        <span class="papertitle">논문 제목</span>
+      </a>
+      <br>
+      저자1, <strong>문채원</strong>, 저자3
+      <br>
+      <em>학회/저널</em>, 연도
+      <p></p>
+      <p>한 줄 요약.</p>
+    </td>
+  </tr>
+  ========================================================= -->
+
+  </tbody></table>
+
+  <!-- ===================== FOOTER ===================== -->
+  <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <tr>
+    <td style="padding:16px;font-size:12px;color:#999;text-align:center;">
+      Template adapted from
+      <a href="https://jonbarron.info/">Jon Barron's</a> public academic website.
+    </td>
+  </tr>
+  </tbody></table>
+
+</td>
+</tr>
+</tbody></table>
+</body>
+</html>
